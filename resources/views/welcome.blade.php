@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <title>workhack</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,10 +13,10 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo">Workhack</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-        
+        <li><a href="#">Blog</a></li>
+
         @if (Route::has('login'))
 
                 @auth
@@ -24,7 +24,7 @@
                     <a href="{{ url('/home') }}">Home</a>
                 @else
                     <li><a href="{{ route('login') }}">Login</a></li>
-                    <li><a href="{{ route('register') }}">Register</a></li>
+                  <!--  <li><a href="{{ route('register') }}">Register</a></li> -->
                 @endauth
 
         @endif
@@ -41,18 +41,18 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center teal-text text-lighten-2">Desarrollo web</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Adquiere un poco de conocimiento sobre el desarrollo web</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="/blog" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Inicia aquì</a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src={{ asset('img/background1.jpg') }} alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src={{ asset('img/fondo.png') }} alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -64,18 +64,18 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h5 class="center">Desarrollador</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">es un especialista en informática que es capaz de concebir y elaborar sistemas informáticos (paquetes de software), así como de implementarlos y ponerlos a punto, utilizando uno o varios lenguajes de programación.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h5 class="center">Diseño UX</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">La Experiencia de Usuario o UX es un término que actualmente está en esa extraña posición de ser excitantemente nuevo para muchos, considerado como un componente esencial del proceso de diseño web por expertos de la industria, sin embargo la UX también genera un aire de misterio en torno a ella</p>
           </div>
         </div>
 
@@ -97,11 +97,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src={{ asset('img/background2.jpg') }} alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src={{ asset('img/3.jpg') }} alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -123,45 +123,47 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Conoce sobre la arquitectura de software</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src={{ asset('img/background3.jpg') }} alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src={{ asset('img/5.jpg') }} alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">Workhack</h5>
+          <p class="grey-text text-lighten-4">Adquiere nuevos conocmientos sobre el desarrollo de sisetmas web</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <!--<h5 class="white-text">Settings</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
             <li><a class="white-text" href="#!">Link 2</a></li>
             <li><a class="white-text" href="#!">Link 3</a></li>
             <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
+           -->
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Contactanos</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Telefono:</a></li>
+            <li><a class="white-text" href="#!">Email: contacto.workhack@gmail.com</a></li>
+            <!-- <li><a class="white-text" href="#!"></a></li>
             <li><a class="white-text" href="#!">Link 4</a></li>
+            -->
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Workhack</a>
       </div>
     </div>
   </footer>
